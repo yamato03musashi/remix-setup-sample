@@ -1,7 +1,5 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
 
-const warningTest = "warningTest";
-
 export const meta: MetaFunction = () => {
   return [
     { title: "New Remix App" },
